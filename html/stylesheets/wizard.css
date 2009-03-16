@@ -1,0 +1,23 @@
+#wizard_panel{
+	background-color: black;
+	width: 200px;
+	height: 300px;
+	float: left;
+	font-size: 16px;
+	position: fixed;
+}
+
+#wizard_panel_handle{
+	background-color: white;
+	height:20px;
+}
+
+#wizard_panel_content{
+	background-color:#15B66A;
+	height: 280px;
+	padding: 5px;
+}
+
+#wizard_panel a{
+	color:black;
+}

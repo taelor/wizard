@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require 'fileutils'
+WIZARD_ROOT = File.expand_path(File.dirname(__FILE__) << "/..")
+
+puts "the wizard gem included files are at #{WIZARD_ROOT}/html"
+
+puts "start copying files"
+
+FileUtils.cp "#{WIZARD_ROOT}/html/javascripts/wizard.js", 'public/javascripts/wizard.js'
+
+FileUtils.cp "#{WIZARD_ROOT}/html/stylesheets/wizard.css", 'public/stylesheets/wizard.css'
+
+puts "files copied"
