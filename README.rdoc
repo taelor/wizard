@@ -23,11 +23,10 @@ Also, if a div has the wizard class assicated with it, a link to that div's id w
 - jQuery Ui Core and Draggable
 
 == INSTALL:
-
-sudo gem install wizard
-rails new_project
-cd new_project
-make_wizardly
+	sudo gem install wizard
+	rails new_project
+	cd new_project
+	make_wizardly
 
 == LICENSE:
 
