@@ -1,6 +1,6 @@
 = wizard
 
-http://slightlycoded.com/project/wizard
+http://slightlycoded.com/projects/wizard
 
 == DESCRIPTION:
 
