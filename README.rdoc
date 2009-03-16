@@ -1,26 +1,33 @@
 = wizard
 
-* FIX (url)
+http://slightlycoded.com/project/wizard
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Wizard is a a floating, dynamic action panel for site navigation and control. Wizard uses jQuery and for DOM manipuation. The Gem provides libraries for faciliting this process. This gem also provides ActionView Helpers and Module extensions for ease of configuration.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+Executables
+	- make_wizardly : copies javascript and css files used with wizard
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+One useful way of using this gem is as an administration panel. Take a blog for instance. While you want to administer your site you can do so with the help of the Wizard panel. This panel could list a set of links for you to navigate to, things like a new blog post link, comments section. 
+
+Also, if a div has the wizard class assicated with it, a link to that div's id will be added to the panel to edit or delete that link. So say you are viewing your blog index. At the top level div defining each blog post you can click on that div, and the wizard panel will show you a link to edit or delete that blog post's id.
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+- jQuery 1.3.2
+- jQuery Ui Core and Draggable
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+sudo gem install wizard
+rails new_project
+cd new_project
+make_wizardly
 
 == LICENSE:
 
